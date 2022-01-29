@@ -34,11 +34,6 @@
     "prettier": "^2.5.1",
     "typescript": "4.5.5"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --fix",
     "*.{js,css,md,ts,tsx}": "prettier --write"
