@@ -33,5 +33,6 @@ jobs:
         uses: wearerequired/lint-action@v1
         with:
           eslint: true
+          eslint_args: '--ext js,ts,tsx'
           prettier: true
           continue_on_error: false
