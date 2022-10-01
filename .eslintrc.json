@@ -52,6 +52,15 @@
         },
         "groups": ["builtin", "external", "internal", "parent"]
       }
-    ]
+    ],
+    "no-use-before-define": ["off"],
+    "@typescript-eslint/no-use-before-define": [
+      "off",
+      {
+        "functions": false,
+        "typedefs": false
+      }
+    ],
+    "prefer-promise-reject-errors": "off"
   }
 }
